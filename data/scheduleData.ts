@@ -16,7 +16,7 @@ export const scheduleData: TrainingSession[] = [
   { id: 13, team: 'SM4', coach: 'Laurent Co', day: 'mercredi', gym: 'Magny', courts: ['T2'], startTime: '20:30', endTime: '22:30' },
   { id: 14, team: 'SF3', coach: 'Aurélie', day: 'mardi', gym: 'Coupvray', courts: ['T3'], startTime: '20:00', endTime: '22:00' },
   { id: 15, team: 'SF3', coach: 'Aurélie', day: 'jeudi', gym: 'Chessy', courts: ['T3'], startTime: '20:00', endTime: '22:30' },
-  { id: 16, team: 'Loisirs Compétition', coach: 'Karine / Laurent L', day: 'jeudi', gym: 'Magny', courts: ['T1', 'T2', 'T3'], startTime: '20:30', endTime: '22:30' },
+  { id: 16, team: 'Loisirs Compétition', coach: 'Karine / Laurent L', day: 'jeudi', gym: 'Coupvray', courts: ['T1', 'T2', 'T3'], startTime: '20:30', endTime: '22:30' },
   { id: 17, team: 'Loisirs Compétition', coach: 'Karine / Laurent L', day: 'vendredi', gym: 'Magny', courts: ['T1'], startTime: '20:30', endTime: '22:30' },
   { id: 18, team: 'Loisirs Confirmés', coach: 'Karine / Laurent L', day: 'vendredi', gym: 'Magny', courts: ['T2', 'T3'], startTime: '20:30', endTime: '22:30' },
   { id: 19, team: 'Loisirs Confirmés', coach: 'Karine / Laurent L', day: 'dimanche', gym: 'Coupvray', courts: ['T1'], startTime: '10:00', endTime: '12:00' },
@@ -29,10 +29,10 @@ export const scheduleData: TrainingSession[] = [
   { id: 27, team: 'M18G1', coach: 'Jurgen', day: 'vendredi', gym: 'Coupvray', courts: ['T1'], startTime: '18:30', endTime: '20:30' },
   { id: 28, team: 'M18F2', coach: 'Guilhem', day: 'jeudi', gym: 'Coupvray', courts: ['T1'], startTime: '18:30', endTime: '20:30' },
   { id: 29, team: 'M18F2', coach: 'Guilhem', day: 'vendredi', gym: 'Magny', courts: ['T2'], startTime: '18:30', endTime: '20:30' },
-  { id: 30, team: 'M18G2', coach: 'Gianni', day: 'jeudi', gym: 'Coupvray', courts: ['T3'], startTime: '18:30', endTime: '20:30' },
+  { id: 30, team: 'M18G2', coach: 'Gianni', day: 'jeudi', gym: 'Coupvray', courts: ['T2'], startTime: '18:30', endTime: '20:30' },
   { id: 31, team: 'M18G2', coach: 'Gianni', day: 'vendredi', gym: 'Coupvray', courts: ['T2'], startTime: '18:30', endTime: '20:30' },
   { id: 32, team: 'M15F', coach: 'Emmy', day: 'lundi', gym: 'Coupvray', courts: ['T1'], startTime: '18:30', endTime: '20:30' },
-  { id: 33, team: 'M15G', coach: 'Damien', day: 'lundi', gym: 'Coupvray', courts: ['T3'], startTime: '18:30', endTime: '20:30' },
+  { id: 33, team: 'M15G1', coach: 'Damien', day: 'lundi', gym: 'Coupvray', courts: ['T3'], startTime: '18:30', endTime: '20:30' },
   { id: 34, team: 'M15F2', coach: 'Lucie', day: 'lundi', gym: 'Coupvray', courts: ['T2'], startTime: '18:30', endTime: '20:30' },
   { id: 35, team: 'M15F2', coach: 'Lucie', day: 'jeudi', gym: 'Esbly', courts: ['T2'], startTime: '18:00', endTime: '20:00' },
   { id: 36, team: 'M15G2', coach: 'Mathis', day: 'lundi', gym: 'Coupvray', courts: ['T2'], startTime: '18:30', endTime: '20:30' },
@@ -44,5 +44,6 @@ export const scheduleData: TrainingSession[] = [
   { id: 42, team: 'Baby-volley M7-M9', coach: 'Vincent M / Mathis / William', day: 'mercredi', gym: 'Coupvray', courts: ['T3'], startTime: '17:00', endTime: '18:30' },
   { id: 43, team: 'Baby-volley M7-M9', coach: 'Vincent M / Mathis / William', day: 'samedi', gym: 'Coupvray', courts: ['T1', 'T2', 'T3'], startTime: '10:30', endTime: '12:00' },
   { id: 44, team: 'Soft volley', coach: 'Vincent V', day: 'jeudi', gym: 'Coupvray', courts: ['T1'], startTime: '14:00', endTime: '16:00' },
-  { id: 45, team: 'M15G2', coach: 'Mathis', day: 'jeudi', gym: 'Esbly', courts: ['T1'], startTime: '18:00', endTime: '20:00' }
+  { id: 45, team: 'M15G2', coach: 'Mathis', day: 'jeudi', gym: 'Esbly', courts: ['T1'], startTime: '18:00', endTime: '20:00' },
+  { id: 46, team: 'M15G1', coach: 'Damien', day: 'jeudi', gym: 'Coupvray', courts: ['T3'], startTime: '18:30', endTime: '20:30' }
 ];
